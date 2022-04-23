@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Meiryo;
+}
+
+body {
+  width: 100%;
+  margin: 3% 3%;
+  line-height: 18px;
+}
+
+h1 , h2 , h4 {
+  display: block;
+  margin-bottom: 5px
+}
+
+table {
+  padding: 1%;
+  width: 40%;
+}
+
+table th {
+  padding-bottom: 1%;
+}
+
+table td {
+  padding-left: 1%;
+  padding-bottom: 2%;
+}
+
+.form_fild {
+  display: block;
+}
+
